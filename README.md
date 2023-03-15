@@ -35,7 +35,7 @@ npm install
 
 ### Supabase
 
-Query to create table `messages`:
+Query to create table `messages` :
 
 ```sql
 CREATE TABLE messages (
@@ -55,7 +55,7 @@ CREATE TABLE messages (
 ## App Development
 
 ### Environment ( .env )
-Environment variable needed:
+Environment variable needed :
 
 ```
 PUBLIC_SUPABASE_URL=
@@ -83,7 +83,7 @@ PUBLIC_APPLICATION_NAME=
 
 ### Build and Deploy
 
-To run local server use:
+To run local server use :
 ```bash
 npm run dev -- --open
 ```
@@ -98,7 +98,7 @@ npm run check
 npm run check:watch
 ```
 
-To build the website:
+To build the website :
 ```bash
 npm run build
 ```
@@ -112,7 +112,7 @@ npm run preview
 > This project NOT generate static file (SSG), you need to download adapter-static and setup some file. For further information please visit [official documentation](https://kit.svelte.dev/docs/adapter-static).
 
 ## License
-Originally this project belonged to:<br>
+Originally this project belonged to :<br>
 [Reynadi531/secret-message](https://github.com/Reynadi531/secret-message).<br>
 
 Modified by [sooluh/secret](https://github.com/sooluh/secret).<br>
